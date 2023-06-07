@@ -11,6 +11,7 @@ Espero poder ajudá-la com o crescimento do negócio e no decorrer da minha carr
 Inicialmente a ideia do negócio e desenvolver um sistema PDV que seja simples e funcional no controle de vendas e estoque, gerando informações para o crescimento do negócio com a política de tomada de decisão baseada em dados. 
 
 Modelo Conceitual:
+[Modelo entidade relacionamento](https://github.com/PauloQuirinoCD/MercadinhoViAna/blob/main/Conceptual%20modelo%20mercadinho%20viana%20-%20BRMW.pdf)
 
 Dentro do conceito do negócio pode ser derivado em algumas entidades fundamentais que compõem toda a estrutura dinâmica do modelo de negócio.
 Produto, Lista de Compra, Venda, Categoria, Fiado e Operadora.
