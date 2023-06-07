@@ -26,11 +26,4 @@ No momento, o foco principal do projeto é organizar e estruturar um sistema par
    Sobre os relacionamentos destas entidades
 Um produto e fornecido por um ou vários fornecedores, em uma categoria contém um ou vários produtos, uma lista de compras tem um ou vários produtos, cada venda e feita somente por uma operadora, as vendas são constituídas por uma ou várias listas de compra, uma venda fiada e feita por um ou várias listas de compra
 
-
-[Primeiro modelo conceitual entidade relacionamento](Conceptual modelo mercadinho viana - BRMW.pdf)
-
-
-
-
-
-
+[Primeiro DER conceitual](Conceptual modelo mercadinho viana - BRMW.pdf)
