@@ -25,5 +25,6 @@ O estoque refere-se a todos os produtos fornecidos que ainda não foram vendidos
 No momento, o foco principal do projeto é organizar e estruturar um sistema para tornar os dados interessantes para a orientação na tomada de decisões. Embora a obtenção de informações sobre os clientes seja relevante para o crescimento futuro do negócio, isso não é o objetivo principal neste estágio inicial do projeto.
 
    Sobre os relacionamentos destas entidades
-Um produto e fornecido por um ou vários fornecedores, em uma categoria contém um ou vários produtos, uma lista de compras tem um ou vários produtos, cada venda e feita somente por uma operadora, as vendas são constituídas por uma ou várias listas de compra, uma venda fiada e feita por um ou várias listas de compra
+Um produto e fornecido por um ou vários fornecedores, em uma categoria contém um ou vários produtos, uma lista de compras tem um ou vários produtos, cada venda e feita somente por uma operadora, as vendas são constituídas por uma ou várias listas de compra, uma venda fiada e feita por um ou várias listas de compra, eventualmente foi criada uma tabela associativa, o relacionamento entre as tabelas fornecedor e produto e de natureza muitos para muitos, logo teve que ser construida um entidade para associar o relacionamento entre as entidades produto e fornecedor, evitando quaisquer conflitos futuros, detalhes sobre a natureza das entidades e seus relacionamentos no Dicionário de dados.
 
+### Dicionário de dados
