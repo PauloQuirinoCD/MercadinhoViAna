@@ -28,3 +28,4 @@ No momento, o foco principal do projeto é organizar e estruturar um sistema par
 Um produto e fornecido por um ou vários fornecedores, em uma categoria contém um ou vários produtos, uma lista de compras tem um ou vários produtos, cada venda e feita somente por uma operadora, as vendas são constituídas por uma ou várias listas de compra, uma venda fiada e feita por um ou várias listas de compra, eventualmente foi criada uma tabela associativa, o relacionamento entre as tabelas fornecedor e produto e de natureza muitos para muitos, logo teve que ser construida um entidade para associar o relacionamento entre as entidades produto e fornecedor, evitando quaisquer conflitos futuros, detalhes sobre a natureza das entidades e seus relacionamentos no Dicionário de dados.
 
 ### Dicionário de dados
+[Dicionário de dados](https://github.com/PauloQuirinoCD/MercadinhoViAna/blob/main/Dicion%C3%A1rio%20de%20dados(Merc.%20ViAna).xlsx)
