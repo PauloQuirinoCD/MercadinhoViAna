@@ -1,31 +1,17 @@
 # MercadinhoViAna
 
-Motivações
+O projeto proposto é desenvolver um sistema PDV (Ponto de Venda) para o Mercadinho ViAna, a fim de melhorar o controle de vendas e estoque, bem como utilizar dados para tomar decisões baseadas em insights. O objetivo é digitalizar o negócio e transformar as informações em algo útil, contribuindo para soluções de problemas do mundo real.
 
-Olá, tudo bem? Sou Paulo Quirino, na data que inicio este projeto estou morando com meus pais, que por meados do fim do ano de 2019, cederem uma área da casa para minha irmã Paula construir um mercadinho. hoje no quinto mês do ano de 2023 o mercadinho vai bem, mas como quase tudo que existe, pode melhorar. Oportunamente, eu como um estudante de Big Data e Inteligência Analítica, quis contribuir com o crescimento do mercadinho, e pôr em prática alguns dos meus conhecimentos adquiridos no decorrer da minha graduação que se encontra no quarto semestre de um total de cinco atualmente, e construindo meu portifólio, provando minhas habilidades para o mundo corporativo, com o intuito de ingressar no mercado de trabalho, “e ansioso por isso”. 
+No estágio inicial, o foco principal é organizar e estruturar um sistema que torne os dados interessantes para orientar a tomada de decisões. Embora a obtenção de informações sobre os clientes seja relevante para o crescimento futuro, não é o objetivo principal neste momento.
 
-Logo no primeiro semestre quando estava compreendendo os principais conceitos de dados e da inteligência de negócios, percebi a oportunidade de digitalizar o mercadinho da minha irmã e transformar estas informações em algo útil e contribuir com soluções de problemas do mundo real, na época não sabia como, logo então hoje estou ciente das etapas, processos e recursos disponíveis para utilizar em um projeto como este, também levando em consideração a disponibilidade de recursos e plataformas gratuitas para este início.
+O projeto busca ajudar no crescimento do negócio e também adquirir novas habilidades e experiências ao longo da carreira. A ideia é, no futuro, tornar o sistema PDV do Mercadinho ViAna um concorrente de peso no mercado global.
 
-Por conviver no mesmo ambiente das instalações do mercadinho ViAna, que a partir de agora vou me referir como o “Negócio”, pude compreender seu funcionamento, como são realizadas as vendas e sempre que me surge uma dúvida sobre a dinâmica do negócio, eu converso com a minha irmã, proprietária e administradora dele.
-Espero poder ajudá-la com o crescimento do negócio e no decorrer da minha carreira com novas habilidades e experiências adquiridas, quem sabe tornar o sistema PDV do negócio de hoje, em um concorrente de peso com as principais referências do mesmo ramo no mercado global daqui a alguns anos.   
-Inicialmente a ideia do negócio e desenvolver um sistema PDV que seja simples e funcional no controle de vendas e estoque, gerando informações para o crescimento do negócio com a política de tomada de decisão baseada em dados. 
+A compreensão do negócio foi obtida por conviver no ambiente do mercadinho. Foram identificadas entidades fundamentais, como produtos, fornecedores, vendas e estoque. O ponto de venda é composto por um depósito que armazena produtos expostos em prateleiras, categorizados em diferentes tipos. Os fornecedores são responsáveis pelo abastecimento dos produtos, e as vendas são registradas pelas operadoras de caixa. No momento, não serão extraídas muitas informações sobre os clientes, exceto os que compram fiado.
 
-Modelo Conceitual:
-[Modelo entidade relacionamento](https://github.com/PauloQuirinoCD/MercadinhoViAna/blob/main/Modelo%20Conceitual%20(Final%20-%20BRMW).pdf)
+Com esse projeto, espera-se contribuir para o crescimento do negócio e adquirir conhecimentos valiosos para a carreira profissional, transformando o sistema PDV em um diferencial competitivo no mercado no futuro.
 
-Dentro do conceito do negócio pode ser derivado em algumas entidades fundamentais que compõem toda a estrutura dinâmica do modelo de negócio.
-Produto, Lista de Compra, Venda, Categoria, Fiado e Operadora.
+[Modelo Conceitual]()
 
-A entidade principal é o produto, uma vez que o negócio gira em torno da compra e venda de produtos. Os produtos podem ser categorizados em diferentes tipos, como gelados, bebidas, não perecíveis, entre outros. Os fornecedores desempenham um papel importante, pois são responsáveis por fornecer os produtos periodicamente.
+[Modelo Lógico]()
 
-As vendas representam as transações de compra dos produtos pelos clientes. As operadoras são as pessoas que registram as vendas, que podem ser compostas por um ou vários produtos. No momento, não será extraída muita informação sobre os clientes, exceto aqueles que compram fiado e requerem registros e atualizações periódicas.
-
-O estoque refere-se a todos os produtos fornecidos que ainda não foram vendidos, ou seja, os produtos físicos armazenados nas dependências do negócio.
-
-No momento, o foco principal do projeto é organizar e estruturar um sistema para tornar os dados interessantes para a orientação na tomada de decisões. Embora a obtenção de informações sobre os clientes seja relevante para o crescimento futuro do negócio, isso não é o objetivo principal neste estágio inicial do projeto.
-
-   Sobre os relacionamentos destas entidades
-Um produto e fornecido por um ou vários fornecedores, em uma categoria contém um ou vários produtos, uma lista de compras tem um ou vários produtos, cada venda e feita somente por uma operadora, as vendas são constituídas por uma ou várias listas de compra, uma venda fiada e feita por um ou várias listas de compra, eventualmente foi criada uma tabela associativa, o relacionamento entre as tabelas fornecedor e produto e de natureza muitos para muitos, logo teve que ser construida um entidade para associar o relacionamento entre as entidades produto e fornecedor, evitando quaisquer conflitos futuros, detalhes sobre a natureza das entidades e seus relacionamentos no Dicionário de dados.
-
-### Dicionário de dados
-[Dicionário de dados](https://github.com/PauloQuirinoCD/MercadinhoViAna/blob/main/Dicion%C3%A1rio%20de%20dados(Merc.%20ViAna).xlsx)
+[Dicionário de dados completo]()
