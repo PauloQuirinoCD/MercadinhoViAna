@@ -10,8 +10,8 @@ A compreensão do negócio foi obtida por conviver no ambiente do mercadinho. Fo
 
 Com esse projeto, espera-se contribuir para o crescimento do negócio e adquirir conhecimentos valiosos para a carreira profissional, transformando o sistema PDV em um diferencial competitivo no mercado no futuro.
 
-[Modelo Conceitual]()
+[Modelo Conceitual](https://github.com/PauloQuirinoCD/MercadinhoViAna/blob/main/Modelo%20Conceitual(Final)-%20BRMW.pdf)
 
-[Modelo Lógico]()
+[Modelo Lógico](https://github.com/PauloQuirinoCD/MercadinhoViAna/blob/main/Imagem_modelo_l%C3%B3gico.png)
 
-[Dicionário de dados completo]()
+[Dicionário de dados completo](https://github.com/PauloQuirinoCD/MercadinhoViAna/blob/main/Dicion%C3%A1rio%20de%20dados.docx)
